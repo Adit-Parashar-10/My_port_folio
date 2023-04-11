@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Merriweather&family=Montserrat:wght@700&family=Sacramento&family=Ubuntu&display=swap');
+
+html{
+    height: 100%;
+}
+#navbarNav{
+    text-align: left;
+}
+
+body{
+    background-color: #f2f5f8;
+}
+
+b{
+    color: #7f00ff;
+}
+
+p{
+    color: #3d535f;
+    font-size: 25px;
+}
+
+#as{
+    color: #3d535f;
+    padding: auto;
+}
+.wrapper{
+    /* justify-content: center; */
+    text-align:left;
+    overflow: hidden;
+    margin: auto;
+    width: 70%; 
+    height: 100vh;
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    background-image: url("home-right.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:400px 400px ;
+    background-position-y: 90px;
+}
+
+#hi{
+    display: block;
+    font-size: 7em;
+    font-weight: 900;
+    color: #3d535f;
+    font-family: 'Sacramento', cursive;
+    padding-left: 2px;
+}
+
+.multitext{
+    color: #7f00ff;
+    font-size: 50px;
+}
+
+.btns{
+    position: relative;
+    padding-top: 15px;
+}
+
+button{
+    cursor:pointer;
+    font-size: 25px;
+    color: #fff;
+    background-color: #3d535f;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4 );
+}
+
+button:hover{
+    background-color: #7f00ff;
+}
+
+.imgbox{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    white-space: 10px;
+    justify-content: center;
+}
+
+#see{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#apla{
+    display: block;
+    justify-content: right;
+}
+
+.abo{
+    font-family: 'Merriweather', serif;
+}
+
+#chota{
+    width: 60%;
+    font-size: 25px;
+}
+
+#about{
+    height: 100%;
+    text-align: left;
+    width: 100%;
+}
+
+#beech-se{
+    text-align: left;
+}
+
+.ka{
+    text-align: right;
+    width: 100%;
+}
+
+#beech{
+    text-align: center;
+}
+
+.pad{
+    padding-bottom: 50%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+#mana{
+    padding-bottom: 20px;
+    height: 420px;
+    width: 420px;
+}
+
+.man{
+    font-size: 25px;
+}
+
+#mn{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* font-weight: 500; */
+    color:#3d535f;
+}
+
+#contact{
+    padding-top: 2%;
+}
