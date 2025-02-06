@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Merriweather&family=Montserrat:wght@700&family=Sacramento&family=Ubuntu&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f5f8;
+    font-family: 'Merriweather', serif;
+}
+
+b {
+    color: #7f00ff;
+}
+
+p {
+    color: #3d535f;
+    font-size: 1.2rem;
+}
+
+.wrapper {
+    text-align: left;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    padding: 50px 20px;
+    background-image: url("home-right.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#hi {
+    display: block;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #3d535f;
+    font-family: 'Sacramento', cursive;
+}
+
+.multitext {
+    color: #7f00ff;
+    font-size: 2.5rem;
+}
+
+.btns {
+    padding-top: 15px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #3d535f;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #7f00ff;
+}
+
+.imgbox {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#see {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#about {
+    width: 100%;
+    text-align: left;
+}
+
+.man {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#contact {
+    padding-top: 2%;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+        background-size: 300px auto;
+    }
+
+    #hi {
+        font-size: 4.5rem;
+    }
+
+    .multitext {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        text-align: center;
+        background-position: center bottom;
+        background-size: 250px auto;
+    }
+
+    #hi {
+        font-size: 3.5rem;
+    }
+
+    .multitext {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 30px 10px;
+        background-size: 200px auto;
+    }
+
+    #hi {
+        font-size: 2.5rem;
+    }
+
+    .multitext {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Adit Parashar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="adit.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">FOLIO<b>.</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="wrapper text-center">
+    <h1 id="hi">Hi</h1>
+    <h1 id="see">I'm <span class="multitext"></span></h1>
+    <p id="chota">This is my first ever portfolio website. I am passionate about web development and eager to learn more!</p>
+    <button class="btn btn-primary">Hire Me</button>
+  </section>
+
+  <section id="about" class="container text-center py-5">
+    <img id="mana" src="about-us.webp" class="img-fluid" alt="About Me">
+    <h2 class="mt-4">Introducing Myself</h2>
+    <p>My name is <b>Adit Parashar</b>, pursuing engineering in <b>CS</b> at <b>PIEMR</b>. I started <b>Web Development</b> 4 months ago and currently work as an intern at <b>Revedor</b>.</p>
+  </section>
+
+  <section id="contact" class="container text-center py-5">
+    <h2>Contact Me</h2>
+    <p><i class="fa fa-map-marker-alt"></i> Indore, India</p>
+    <p><i class="fa fa-phone"></i> +91 8319764754</p>
+    <p><i class="fa fa-envelope"></i> parasharadit86@gmail.com</p>
+    <form action="/action_page.php">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Send Message</button>
+    </form>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typingEffect = new Typed(".multitext", {
+      strings: ["Coder", "Front-End Developer", "Web Developer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1500
+    });
+  </script>
+</body>
+
+</html>
